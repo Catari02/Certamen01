@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/*
+Modifique un mínimo de tres variables dentro de :root{} 
+Para seleccionarlas, revise: https://getbootstrap.com/docs/5.1/customize/css-variables/
+*/
+
+:root {
+    --bs-body-font-family: "Fira Sans", sans-serif;
+    --bs-body-font-size: 0.9rem;
+    --bs-body-font-weight: 300;
+}
+
+/*
+Si el peso de la fuente para sus títulos y negrita es distinto de 600, 
+indique cuál sería (ver pesos de fuente importada)
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 500;
+}
+
+#fondo-con-imagen {
+    height: 70vh;
+    background-image: url("img/spider-man-into-the-spider-verse_upside.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div {
+    text-align: center
+  }
